@@ -1,3 +1,4 @@
-# DIVAS-in-Tech
-# DIVAS-in-Tech
-# DIVAS-in-Tech
+# Main Objectives for Website
+- Make Log In
+- Make Calendar
+- Make Chat
