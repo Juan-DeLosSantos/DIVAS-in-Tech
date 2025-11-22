@@ -1,0 +1,31 @@
+{
+  "name": "divas-in-tech",
+  "version": "1.0.0",
+  "description": "divas website",
+  "homepage": "https://github.com/Juan-DeLosSantos/DIVAS-in-Tech#readme",
+  "bugs": {
+    "url": "https://github.com/Juan-DeLosSantos/DIVAS-in-Tech/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juan-DeLosSantos/DIVAS-in-Tech.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "main.jsx",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^7.9.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.1",
+    "vite": "^7.2.4"
+  }
+}
