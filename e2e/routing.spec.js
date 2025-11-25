@@ -18,7 +18,7 @@ test.describe('Navigation', () => {
     await page.goto('http://localhost:5173/');
     await page.locator('button:has-text("Log In")').click();
     await expect(page).toHaveURL('http://localhost:5173/login');
-    await expect(page.locator('h1')).toHaveText('This is the Login Page');
+    await expect(page.locator('h1')).toHaveText("This is the log in page, please log in");
   });
 
   test('should click "mission" and navigate to the mission page', async ({ page }) => {

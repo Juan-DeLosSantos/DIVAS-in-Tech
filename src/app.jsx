@@ -13,7 +13,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home/>} />
                 <Route path="/calendar" element={<Calendar/>} />
-                <Route path="/login" element={<Login/>} />
+                <Route path="/login" element={<Login isLoggedIn={false}/>} />
                 <Route path="/mission" element={<Mission/>} />
                 <Route path="/chat" element={<Chat/>} />
                 <Route path="*" element={<PageNotFound/>} />
