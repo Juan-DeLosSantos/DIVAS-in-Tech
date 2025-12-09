@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test.describe('Chat Page', () => {
+test.describe('Calendar', () => {
     test("Add event button is hidden when not logged in", async ({ page }) => {
         await page.goto("/");
 
